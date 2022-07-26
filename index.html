@@ -690,14 +690,18 @@ header .hi.active span:nth-child(2){
     padding:80px 0px 50px;
     background-color: #000000;
 }
-.classes .content{
-    -webkit-display:flex;
-    display: flex;
+@media only screen and (min-width:768px){
+    .classes .content{
+        -webkit-display:flex;
+        display: flex;
+    }
 }
-.classes .content .box{
-    padding:15px;
-    flex:0 0 50%;
-    max-width: 50%;
+@media only screen and (min-width:768px){
+    .classes .content .box{
+        padding:15px;
+        flex:0 0 50%;
+        max-width: 50%;
+    }
 }
 .classes .content .img img{
     width: 100%;
@@ -798,14 +802,18 @@ header .hi.active span:nth-child(2){
     padding:80px 0px;
     background-color: #000000;
 }
-.schedule .content{
-    -webkit-display:flex;
-    display: flex;
+@media only screen and (min-width:768px){
+    .schedule .content{
+        -webkit-display:flex;
+        display: flex;
+    } 
 }
+@media only screen and (min-width:768px){
 .schedule .content .box{
     flex:0 0 50%;
     max-width: 50%;
     padding:15px;
+}
 }
 .schedule .content .text h2{
     font-size: 30px;
@@ -909,14 +917,18 @@ header .hi.active span:nth-child(2){
     padding:0 20% 50px;
     font-family: 'Open Sans', sans-serif;
 }
+@media only screen and (min-width:768px){
 .price-package .content{
     -webkit-display:flex;
     display: flex;
 }
+}
+@media only screen and (min-width:768px){
 .price-package .content .box{
     flex:0 0 33.33%;
     max-width: 33.33%;
     padding: 15px;
+}
 }
 .price-package .content .box .inner{
     background-color: #52B6D7;
@@ -1025,5 +1037,6 @@ header .hi.active span:nth-child(2){
     color: #ffffff;
 }
     </style>
+
 </body>
 </html>
